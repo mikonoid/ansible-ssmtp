@@ -1,0 +1,8 @@
+---
+
+# Default sSMTP configuration.
+
+ssmtp_mailhub: mailout.intergenia.de:25
+ssmtp_root_recipient: gm-team-emea@godaddy.com
+ssmtp_rewrite_domain: YES
+ssmtp_from_line_override: YES

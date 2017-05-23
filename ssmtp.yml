@@ -1,0 +1,6 @@
+---
+- hosts: icinga_servers
+  become: yes
+  roles:
+   - role: ssmtp
+     tags: ['all', 'server', 'ssmtp']
