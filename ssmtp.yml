@@ -1,5 +1,5 @@
 ---
-- hosts: icinga_servers
+- hosts: all
   become: yes
   roles:
    - role: ssmtp
